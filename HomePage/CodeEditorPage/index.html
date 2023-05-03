@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Live Code Editor</title>
+
+    <!-- Reference -->
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://kit.fontawesome.com/d070a0eb8b.js" crossorigin="anonymous"></script>
+</head>
+
+    <body>
+      <div class="container">
+        
+        <!-- Code Input -->
+        <div class="code">
+          <!-- label -->
+          <label><i class="fa-brands fa-html5" style="color: #e9420a;"></i> HTML</label>
+          <!-- set input -->
+          <textarea id="html_code" onkeyup="compile()" placeholder="HTML"></textarea>
+          
+          <!-- label -->
+          <label><i class="fa-brands fa-css3-alt" style="color: #1d55cb;"></i> CSS</label>
+          <!-- set input -->
+          <textarea id="css_code" onkeyup="compile()" placeholder="CSS"></textarea>
+
+          <!-- label -->
+          <label><i class="fa-brands fa-js" style="color: #e4ce2e;"></i> JS</label>
+          <!-- set input -->
+          <textarea id="js_code" onkeyup="compile()" placeholder="JavaScript"></textarea>
+        </div>
+        <!-- Code Input End -->
+        
+        <!-- Output -->
+        <div class="display">
+          <label><i class="fa-solid fa-play" style="color: #ffffff;"></i> Output</label>
+          <!-- menampilkan halamam dokumen html -->
+          <iframe id="output"></iframe>
+        </div>
+        <!-- Output End -->
+        
+      </div>
+    </body>
+
+</html>

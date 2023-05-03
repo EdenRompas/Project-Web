@@ -1,0 +1,58 @@
+body {
+  background: #454545;
+  color: #fff;
+}
+
+.container {
+
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+}
+
+/* Editor And Output */
+.code, .display {
+
+  flex-basis: 50%;
+  padding: 25px;
+}
+
+/* Editor HTML CSS JS */
+textarea {
+  
+  width: 100%;
+  height: 30%;
+  background: #1f1f1f;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+}
+
+/* Output */
+iframe {
+
+  width: 100%;
+  height: 95%;
+  background: #fff;
+  border: 0;
+  outline: 0;
+}
+
+/* Label Position */
+label i {
+  
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Label Background */
+label {
+  
+  display: flex;
+  align-items: center;
+  background: #000;
+  height: 30px;
+}
